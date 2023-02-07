@@ -223,6 +223,11 @@ h2 {
   width: calc((100% / 12) * 8);
   margin: 2.5rem auto;
 }
+
+.big_container button {
+  background-color: #8EA1E1;
+  color: var(--ds_light);
+}
 /* endregion Section 5 */
 /* #endregion Main */
 
