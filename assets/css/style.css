@@ -49,8 +49,13 @@
   border: 2px dashed var(--ds_dark);
 }
 
-nav {
+.debug nav {
   background-color: var(--ds_nav);
+  border-left: 2px dashed var(--ds_dark);
+  border-right: 2px dashed var(--ds_dark);
+}
+
+nav {
   justify-content: space-between;
 }
 
@@ -60,8 +65,6 @@ nav ul {
   justify-content: center;
   flex-grow: 2;
   column-gap: 1rem;
-  border-left: 2px dashed var(--ds_dark);
-  border-right: 2px dashed var(--ds_dark);
 }
 
 nav ul li a {
@@ -87,12 +90,12 @@ nav ul li a {
 
 /* #region Main */
 /* #region Section 1 */
-#section_1 {
+.debug #section_1 {
   background-color: var(--ds_blu-dark);
   height: var(--height_section);
 }
 
-.small_container {
+.debug .small_container {
   background-color: var(--ds_lavanda);
   width: calc((100% / 12) * 6);
   height: 20rem;
