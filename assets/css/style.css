@@ -84,7 +84,11 @@ nav ul li a {
  #login {
     display: flex;
     align-self: center;
-    padding: 0.7rem;
+    
+}
+
+.btn {
+  padding: 0.7rem;
     border-radius: 20px;
     border: none;
     font-weight: bold;
@@ -122,6 +126,17 @@ nav ul li a {
   background-image: url(../img/jumbo.png);
   background-size: cover;
   height: 34rem;
+  color: var(--ds_light);
+}
+
+.small_container button:first-child,
+.small_container button:last-child {
+  padding: 1.4rem;
+  border-radius: 2rem;
+}
+
+.small_container button:last-child {
+  background-color: var(--ds_dark);
   color: var(--ds_light);
 }
 
@@ -173,6 +188,7 @@ p {
   background-color: var(--ds_secondary);
   height: 23rem;
   border: 2px dashed var(--ds_dark);
+  color: var(--ds_light);
 }
 
 .font_container {
