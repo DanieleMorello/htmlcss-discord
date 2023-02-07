@@ -133,6 +133,7 @@ nav ul li a {
 .small_container button:last-child {
   padding: 1.4rem;
   border-radius: 2rem;
+  margin: auto;
 }
 
 .small_container button:last-child {
@@ -156,6 +157,10 @@ p {
 .debug #section_2 {
   background-color: var(--ds_light);
   height: var(--height_section);
+  
+}
+
+#section_2 {
   margin: 2.5rem auto;
   justify-content: center;
 }
@@ -164,6 +169,11 @@ p {
   background-color: var(--ds_primary);
   height: 23rem;
   border: 2px dashed var(--ds_dark);
+}
+
+h2 {
+  margin-top: 2rem;
+  font-size: 3rem;
 }
 /* #endregion Section 2 */
 
