@@ -109,16 +109,20 @@ nav ul li a {
 
 .debug .small_container {
   background-color: var(--ds_lavanda);
-  width: calc((100% / 12) * 6);
-  height: 20rem;
+  width: calc((100% / 12) * 5);
+  height: 29rem;
   margin: 2.5rem auto;
   border: 2px dashed var(--ds_dark);
 }
 
 .small_container {
-  width: calc((100% / 12) * 6);
-  height: 20rem;
+  width: calc((100% / 12) * 5);
+  height: 29rem;
   margin: 2.5rem auto;
+  text-align: center;
+  margin: auto;
+  margin-top: 1rem;
+  padding-left: 2rem;
 }
 
 #section_1 {
@@ -132,12 +136,18 @@ nav ul li a {
 .small_container button:last-child {
   padding: 1.4rem;
   border-radius: 2rem;
-  margin: auto;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+.small_container button:first-child {
+  width: 15rem;
 }
 
 .small_container button:last-child {
   background-color: var(--ds_dark);
   color: var(--ds_light);
+  width: 20rem;
 }
 
 h1 {
@@ -170,8 +180,7 @@ p {
 }
 
 h2 {
-  margin-top: 2rem;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 /* #endregion Section 2 */
 
@@ -252,6 +261,7 @@ footer h3 {
   background-color: var(--ds_dark-lavanda);
   height: 23rem;
   border: 2px dashed var(--ds_dark);
+  margin: 3rem;
 }
 
 .dark_pink-container {
