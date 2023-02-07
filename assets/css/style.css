@@ -109,7 +109,7 @@ nav ul li a {
 
 .debug .small_container {
   background-color: var(--ds_lavanda);
-  width: calc((100% / 12) * 5);
+  width: calc((100% / 12) * 6);
   height: 29rem;
   margin: 2.5rem auto;
   border: 2px dashed var(--ds_dark);
@@ -159,6 +159,7 @@ h1 {
 p {
   font-size: 1.3rem;
   line-height: 2rem;
+  padding-left: 1rem;
 }
 /* #endregion Section 1 */
 
@@ -180,7 +181,9 @@ p {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 3.3rem;
+  text-align: center;
+  padding: 1rem;
 }
 /* #endregion Section 2 */
 
@@ -235,6 +238,10 @@ h2 {
   background-color: #8ea1e1;
   color: var(--ds_light);
 }
+
+div[class="flex"]{
+  flex-direction: column;
+}
 /* endregion Section 5 */
 /* #endregion Main */
 
@@ -248,13 +255,20 @@ footer {
   color: var(--ds_light);
 }
 
+footer h2 {
+  font-size: 3rem;
+  text-align: left;
+  margin: 2rem -1rem;
+  padding-top: 0;
+}
+
 footer h2,
 footer h3 {
   color: #8ea1e1;
 }
 
 #footer_top {
-  border-bottom: 5px solid var(--ds_gray);
+  border-bottom: 1px solid #8ea1e1;
 }
 
 .debug .dark_pink-container {
@@ -290,8 +304,12 @@ select {
 }
 
 .social {
-  padding-right: 1rem;
+  margin-top: 3rem;
 }
+
+/* .social span {
+  margin-right: 1rem;
+} */
 
 .greenwater_container {
   margin: 3rem;
@@ -324,9 +342,16 @@ select {
   align-self: center;
 }
 
+#footer_bottom nav {
+  justify-content: space-between;
+}
+
 #button {
+  border-radius: 5rem;
+}
+
+#button button {
   background-color: #8ea1e1;
   color: var(--ds_light);
 }
-
 /* #endregion Footer */
