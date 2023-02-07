@@ -236,6 +236,16 @@ h2 {
   background-color: var(--ds_dark);
 }
 
+footer {
+  background-color: var(--ds_dark);
+  color: var(--ds_light);
+}
+
+footer h2,
+footer h3 {
+  color: #8EA1E1;
+}
+
 #footer_top {
   border-bottom: 5px solid var(--ds_gray);
 }
@@ -263,6 +273,23 @@ h2 {
 
 #footer_top .big_container {
   margin-top: 0.6rem;
+}
+
+.social {
+  padding-right: 1rem;
+}
+
+.greenwater_container {
+  margin: 3rem;
+}
+
+.greenwater_container ul li{
+  list-style: none;
+}
+
+.greenwater_container ul li a {
+  text-decoration: none;
+  color: var(--ds_light);
 }
 
 .debug #footer_bottom .container {
