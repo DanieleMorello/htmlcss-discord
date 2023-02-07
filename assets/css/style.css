@@ -22,6 +22,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
 /* #endregion Common */
 
 /* #region Utility Classes */
@@ -55,7 +59,8 @@
   border-right: 2px dashed var(--ds_dark);
 }
 
-nav {
+header {
+  background-color: #3161E0;
   justify-content: space-between;
 }
 
@@ -69,14 +74,20 @@ nav ul {
 
 nav ul li a {
   text-decoration: none;
+  color: var(--ds_light);
 }
 
 #logo {
   justify-content: flex-start;
 }
 
-#login {
-  justify-content: flex-end;
+ #login {
+    display: flex;
+    align-self: center;
+    padding: 0.7rem;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
 }
 
 #logo,
@@ -84,7 +95,6 @@ nav ul li a {
   display: flex;
   align-self: center;
   margin: 0.7rem 0.5rem;
-  flex-grow: 1;
 }
 /* #endregion Header */
 
