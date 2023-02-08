@@ -33,6 +33,9 @@ body {
   display: flex;
 }
 
+a {
+  text-decoration: none;
+}
 /* #endregion Utility Classes */
 
 /* #region Header */
@@ -77,6 +80,10 @@ nav ul li a {
   color: var(--ds_light);
 }
 
+nav button > a {
+  color: var(--ds_dark);
+}
+
 #logo {
   justify-content: flex-start;
 }
@@ -84,6 +91,7 @@ nav ul li a {
 #login {
   display: flex;
   align-self: center;
+  color: var(--ds_dark);
 }
 
 .btn {
@@ -99,6 +107,8 @@ nav ul li a {
   align-self: center;
   margin: 0.7rem 0.5rem;
 }
+
+
 /* #endregion Header */
 
 /* #region Main */
@@ -320,7 +330,6 @@ select {
 }
 
 .greenwater_container ul li a {
-  text-decoration: none;
   color: var(--ds_light);
 }
 
@@ -352,6 +361,9 @@ select {
 
 #button button {
   background-color: #8ea1e1;
+}
+
+#button button a {
   color: var(--ds_light);
 }
 /* #endregion Footer */
