@@ -14,6 +14,7 @@
   --ds_dark-lavanda: #f08080;
   --ds_primary: #1e90ff;
   --ds_secondary: #ffc0cb;
+  --ds-wawe: #f7f7f6;
 }
 
 /* CSS RESET */
@@ -198,6 +199,27 @@ h2 {
 /* #endregion Section 2 */
 
 /* #startregion Section 3 */
+.wave-top, 
+.wave-bottom
+ {
+  color: var(--ds-wawe);
+}
+
+#section_3, #section_5 {
+  background-color: var(--ds-wawe);
+}
+
+.wave-top
+{ 
+  margin-bottom: -10px;
+}
+
+.wave-bottom
+{
+  margin-top: -10px;
+  rotate: 180deg
+}
+
 #section_3 {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -247,6 +269,8 @@ h2 {
 .big_container button {
   background-color: #8ea1e1;
   color: var(--ds_light);
+  width: 9rem;
+  margin-left: 30rem;
 }
 
 div[class="flex"]{
