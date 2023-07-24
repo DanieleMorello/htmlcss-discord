@@ -24,32 +24,75 @@
     <!-- STYLE CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
   </head>
-  <body class="debug">
+  <body>
     <header id="app_header">
-      <div class="container d_flex">
-        <div class="logo">Logo</div>
+      <div class="container d_flex wrap">
+        <div class="logo">
+          <img src="./assets/img/logo.svg" alt="Logo">
+        </div>
         <!-- /.logo -->
 
         <nav class="main_menu">
-          Menu
+          <ul class="list_inline">
+            <li>
+              <a href="#">Scarica</a>
+            </li>
+
+            <li>
+              <a href="#">Perché Discord</a>
+            </li>
+
+            <li>
+              <a href="#">Nitro</a>
+            </li>
+
+            <li>
+              <a href="#">Sicurezza</a>
+            </li>
+
+            <li>
+              <a href="#">Assistenza</a>
+            </li>
+          </ul>
         </nav>
+        <!-- /.main_menu -->
 
         <div class="login">
-          Login
+          <a href="#" class="btn btn_small btn_light">Accedi</a>
         </div>
         <!-- /.login -->
       </div>
     </header>
-    <!-- /#app_header -->
+    <!-- /#app-header -->
 
     <main id="app_main">
       <div class="jumbotron">
-        <div class="jumbo_text"></div>
+        <div class="container_sm text_center">
+          <h1>Il tuo posto per parlare</h1>
+
+          <p>
+            Che tu faccia parte di un club scolastico, gruppo di gamer,
+            comunità atistica mondiale, o semplicemente di un piccolo gruppo di
+            amici che vuole passare il tempo assieme, Discord rende più facile
+            chiacchierare ogni giornoe ritrovarsi più spesso.
+          </p>
+
+          <div class="call_to_action">
+            <a href="#" class="btn btn_lg btn_light">
+              <i class="fa-solid fa-arrow-down-long"></i>
+              Scarica per Mac
+            </a>
+            <a href="#" class="btn btn_lg btn_dark">
+              Apri Discord nel tuo browser
+            </a>
+          </div>
+          <!-- /.call-to-action -->
+        </div>
       </div>
       <!-- /.jumbotron -->
 
       <section id="safe_talk">
-        <div class="container d_flex">
+        <div class="container d_flex wrap">
           <div class="section_image"></div>
           <div class="section_text"></div>
         </div>
@@ -79,7 +122,7 @@
     </main>
     <!-- /#app_main -->
 
-    <footer id="app_footer">
+    <!-- <footer id="app_footer">
       <div class="container">
         <div class="top d_flex">
           <div class="talk"></div>
@@ -108,7 +151,7 @@
           <div class="register">Register</div>
         </div>
       </div>
-    </footer>
+    </footer> -->
     <!-- /#app_footer -->
   </body>
 </html>
