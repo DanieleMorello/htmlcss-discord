@@ -4,6 +4,7 @@
   --ds-primary: #8ea0e0;
   --ds-light: #f7f7f6;
   --ds-lighter: #ffffff;
+  --fw-600: 600;
 }
 /* CSS RESET */
 * {
@@ -55,6 +56,14 @@ p {
   flex-wrap: wrap;
 }
 
+.justify_center {
+  justify-content: center;
+}
+
+.align_center {
+  align-items: center;
+}
+
 .text_center {
   text-align: center;
 }
@@ -67,8 +76,16 @@ p {
   margin-top: 2rem;
 }
 
+.mt_3 {
+  margin-top: 3rem;
+}
+
 .mb_1 {
   margin-bottom: 1rem;
+}
+
+.mr_3 {
+  margin-right: 3rem;
 }
 
 .w_40 {
@@ -80,18 +97,22 @@ p {
 }
 
 .btn {
+  font-size: 1.15rem;
+  font-weight: var(--fw-600);
+  padding: 15px 25px;
   display: inline-block;
+  border: none;
   border-radius: 1.5rem;
 }
 
 .btn_small {
-  padding: 0.25rem 0.75rem;
+  padding: 0.5rem 1rem;
   font-size: 0.9rem;
 }
 
 .btn_lg {
-  padding: 0.5rem 1rem;
-  font-size: 0.9rem;
+  padding: 1.25rem;
+  font-size: 1rem;
 }
 
 .btn_light {
@@ -136,7 +157,7 @@ ul.list_inline {
 }
 
 #app_header {
-  padding: 1rem 0;
+  padding: 3rem;
   background-color: #255ee8;
   position: fixed;
   width: 100%;
@@ -149,25 +170,27 @@ ul.list_inline {
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  height: 450px;
+  height: 898px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 3rem;
+  padding: 4rem;
 }
 
 .jumbotron h1 {
   font-size: 3.5rem;
+  margin-top: 6rem;
   margin-bottom: 2rem;
   color: var(--ds-lighter);
 }
 
 .jumbotron p {
+  font-size: 1.5rem;
   color: var(--ds-lighter);
 }
 
-.jumbotron .call-to-action {
-  margin-top: 2rem;
+.jumbotron .call_to_action {
+  margin-top: 3rem;
 }
 /* #endregion Header */
 
@@ -210,6 +233,8 @@ h4 {
 /* #region Footer */
 #app_footer {
   padding: 1rem 0;
+  background-color: var(--ds-dark);
+  color: var(--ds-lighter);
 }
 
 #app_footer .talk {
@@ -220,10 +245,34 @@ h4 {
   width: calc(100% / 4);
 }
 
+#app_footer ul {
+  list-style: none;
+}
+
+#app_footer h3,
+#app_footer h4 {
+  color: var(--ds-primary);
+}
+
 #app_footer .bottom {
   margin-top: 1rem;
   border-top: 1px solid gray;
   padding: 1rem 0;
   justify-content: space-between;
 }
+
+#app_footer .language {
+  font-size: 14px;
+  margin: 1.5rem 0;
+}
+
+.language > span {
+  margin: 0 0.5rem;
+}
+
+.social {
+  display: flex;
+  gap: 0.75rem;
+}
+
 /* #endregion Footer */
