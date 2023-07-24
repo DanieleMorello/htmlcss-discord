@@ -1,3 +1,45 @@
 /* #region Debug */
+.debug > header {
+  background-color: aquamarine;
+}
 
+.debug .jumbotron {
+  background-color: blue;
+}
+
+.debug .jumbo_text {
+  height: 100%;
+  min-width: 60%;
+  background-color: green;
+}
+
+.debug .section_image {
+  height: 350px;
+  background-color: palevioletred;
+}
+
+.debug .section_text {
+  height: 350px;
+  background-color: cornflowerblue;
+}
+
+.debug #reliable .container {
+  height: 500px;
+  background-color: green;
+}
+
+.debug #app_footer {
+  /* height: 500px; */
+  background-color: #333;
+}
+
+.debug .talk {
+  background-color: gainsboro;
+  height: 400px;
+}
+
+.debug .item {
+  background-color: aquamarine;
+  border: 1px dashed red;
+}
 /* #endregion Debug */
