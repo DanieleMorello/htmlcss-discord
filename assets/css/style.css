@@ -1,0 +1,30 @@
+/* #region Common */
+:root {
+  --ds-dark: #22272b;
+  --ds-primary: #8ea0e0;
+  --ds-light: #f7f7f6;
+  --ds-lighter: #ffffff;
+}
+/* CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  padding: 2rem 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  line-height: 1.5rem;
+}
+/* #endregion Common */
