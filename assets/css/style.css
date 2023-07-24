@@ -59,6 +59,14 @@ p {
   text-align: center;
 }
 
+.w_40 {
+  width: 40%;
+}
+
+.w_60 {
+  width: 60%;
+}
+
 .btn {
   display: inline-block;
   border-radius: 1.5rem;
@@ -125,6 +133,10 @@ ul.list_inline {
   background-position: center;
   background-repeat: no-repeat;
   height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
 }
 
 .jumbotron h1 {
@@ -143,24 +155,18 @@ ul.list_inline {
 /* #endregion Header */
 
 /* #region Main */
-.jumbotron {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 3rem;
+#app-main {
+  margin-top: 74px;
 }
 
-section .section_image {
-  width: 60%;
+section .section_text > h2 {
+  font-size: 2.5rem;
+  margin: 1.5rem 0;
 }
 
-section .section_text {
-  width: 40%;
-}
-
-#safe_talk,
+#safe-talk,
 #fandom {
-  background-color: gainsboro;
+  background-color: var(--ds-lighter);
 }
 /* #endregion Main */
 
