@@ -196,7 +196,8 @@ ul.list_inline {
 /* #endregion Header */
 
 /* #region Main */
-section .section_text > h2 {
+#safe_talk h2,
+section .section_text h2 {
   font-size: 3rem;
   font-weight: var(--fw-900);
   margin-bottom: 40px;
