@@ -59,6 +59,14 @@ p {
   text-align: center;
 }
 
+.mt_1 {
+  margin-top: 1rem;
+}
+
+.mt_2 {
+  margin-top: 2rem;
+}
+
 .w_40 {
   width: 40%;
 }
@@ -155,18 +163,30 @@ ul.list_inline {
 /* #endregion Header */
 
 /* #region Main */
-#app-main {
-  margin-top: 74px;
-}
-
 section .section_text > h2 {
   font-size: 2.5rem;
   margin: 1.5rem 0;
 }
 
-#safe-talk,
+#safe_talk,
 #fandom {
   background-color: var(--ds-lighter);
+}
+
+#easy_meetings,
+#reliable {
+  background-color: var(--ds-light);
+}
+
+.wave_top {
+  color: var(--ds-light);
+  margin-bottom: -10px;
+}
+
+.wave_bottom {
+  color: var(--ds-light);
+  margin-top: -10px;
+  rotate: 180deg;
 }
 /* #endregion Main */
 
