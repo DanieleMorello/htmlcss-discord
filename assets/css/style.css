@@ -223,7 +223,7 @@ section .section_text h2 {
 .wave_bottom {
   color: var(--ds-light);
   margin-top: -10px;
-  rotate: 180deg;
+  transform: rotate(180deg);
 }
 
 h3 {
