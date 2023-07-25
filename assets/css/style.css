@@ -200,7 +200,7 @@ ul.list_inline {
 /* #region Main */
 #safe_talk h2,
 section .section_text h2 {
-  font-size: 3rem;
+  font-size: 3.25rem;
   font-weight: var(--fw-900);
   margin-bottom: 40px;
 }
