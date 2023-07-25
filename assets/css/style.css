@@ -208,6 +208,15 @@ section .section_text h2 {
 #safe_talk,
 #fandom {
   background-color: var(--ds-lighter);
+  margin-bottom: 6rem;
+}
+
+#fandom {
+  margin-top: 6rem;
+}
+
+#reliable {
+  padding: 7rem 0 11rem;
 }
 
 #easy_meetings,
