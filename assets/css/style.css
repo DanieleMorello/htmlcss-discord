@@ -200,7 +200,7 @@ ul.list_inline {
 /* #region Main */
 #safe_talk h2,
 section .section_text h2 {
-  font-size: 3rem;
+  font-size: 3.25rem;
   font-weight: var(--fw-900);
   margin-bottom: 40px;
 }
@@ -287,6 +287,14 @@ h3 {
   color: var(--ds-light);
 }
 
+#footer_menu ul {
+  margin-top: 1rem;
+}
+
+#footer_menu li {
+  list-style: none;
+}
+
 #language,
 #socials {
   align-items: center;
@@ -311,18 +319,18 @@ h3 {
   color: var(--ds-primary);
 }
 
-#product > ul > li,
-#campaign > ul > li,
-#resources > ul > li,
-#norms > ul > li {
+#product a,
+#campaign a,
+#resources a,
+#norms a {
   color: var(--ds-light);
   font-weight: var(--fw-500);
 }
 
-#product,
-#campaign,
-#resources,
-#norms {
+#product li,
+#campaign li,
+#resources li,
+#norms li {
   line-height: 20px;
   margin-bottom: 20px;
 }
@@ -353,5 +361,4 @@ h3 {
   border: none;
   font-weight: var(--fw-600);
 }
-
 /* #endregion Footer */
