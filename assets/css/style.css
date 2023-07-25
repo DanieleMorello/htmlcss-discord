@@ -4,9 +4,11 @@
   --ds-primary: #8ea0e0;
   --ds-light: #f7f7f6;
   --ds-lighter: #ffffff;
+  --fw-500: 500;
   --fw-600: 600;
   --fw-900: 900;
 }
+
 /* CSS RESET */
 * {
   margin: 0;
@@ -224,7 +226,7 @@ section .section_text h2 {
   rotate: 180deg;
 }
 
-h4 {
+h3 {
   width: 40%;
   margin: auto;
   padding: 50px 0;
@@ -236,47 +238,111 @@ h4 {
 
 /* #region Footer */
 #app_footer {
-  padding: 1rem 0;
   background-color: var(--ds-dark);
-  color: var(--ds-lighter);
+  padding: 100px 0;
 }
 
-#app_footer .talk {
-  width: 40%;
+#footer_menu {
+  align-items: flex-start;
+  line-height: 1rem;
 }
 
-.item {
-  width: calc(100% / 4);
+#footer_menu > div {
+  padding-right: 40px;
 }
 
-#app_footer ul {
-  list-style: none;
+#footer_menu > div:first-of-type > h2 {
+  color: var(--ds-primary);
+  font-size: 2rem;
 }
 
-#app_footer h3,
-#app_footer h4 {
+#language {
+  margin: 30px 0;
+}
+
+#language > img {
+  margin-right: 5px;
+  width: 30px;
+}
+
+#language_selection {
+  color: var(--ds-light);
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+#footer_menu i {
+  width: 100%;
+  vertical-align: middle;
+  color: var(--ds-light);
+}
+
+#language,
+#socials {
+  align-items: center;
+}
+
+#socials > div {
+  width: 25px;
+  margin-right: 25px;
+}
+
+#product,
+#campaign,
+#resources,
+#norms {
+  width: 17%;
+}
+
+#product > h4,
+#campaign > h4,
+#resources > h4,
+#norms > h4 {
   color: var(--ds-primary);
 }
 
-#app_footer .bottom {
-  margin-top: 1rem;
-  border-top: 1px solid gray;
-  padding: 1rem 0;
+#product > ul > li,
+#campaign > ul > li,
+#resources > ul > li,
+#norms > ul > li {
+  color: var(--ds-light);
+  font-weight: var(--fw-500);
+}
+
+#product,
+#campaign,
+#resources,
+#norms {
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+#product:last-child,
+#campaign:last-child,
+#resources:last-child,
+#norms:last-child {
+  margin-bottom: 0;
+}
+
+#app_footer hr {
+  margin: 40px 0;
+  border: 1px solid var(--ds-primary);
+}
+
+#bottom_section {
   justify-content: space-between;
+  align-items: center;
 }
 
-#app_footer .language {
-  font-size: 14px;
-  margin: 1.5rem 0;
-}
-
-.language > span {
-  margin: 0 0.5rem;
-}
-
-.social {
-  display: flex;
-  gap: 0.75rem;
+#bottom_section > button {
+  color: var(--white);
+  background-color: var(--ds-primary);
+  font-size: 1.15rem;
+  padding: 15px 25px;
+  border-radius: 30px;
+  border: none;
+  font-weight: var(--fw-600);
 }
 
 /* #endregion Footer */
